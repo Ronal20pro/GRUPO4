@@ -1,1 +1,72 @@
-.
+int numero1;
+Console.WriteLine("ingrese su primer numero ");
+numero1 = int.Parse(Console.ReadLine());
+
+int numero2;
+Console.WriteLine("ingrese su segundo numero ");
+numero2 = int.Parse(Console.ReadLine());
+
+
+
+//igual
+if (numero1 == numero2)
+{
+    Console.WriteLine($"El numero{numero1} es igual al {numero2}");
+    Console.WriteLine();
+}
+// a < b
+else
+{
+    if (numero1 < numero2)
+    {
+        Console.WriteLine($"El NUMERO {numero1} es menor que {numero2}");
+        
+    }
+//a > b
+    else
+    {
+        if (numero1 > numero2)
+        {
+            Console.WriteLine($"El NUMERO {numero1} es mayor que {numero2}");
+        }
+        
+        
+    }
+// dirente de
+int numero1;
+Console.WriteLine("ingrese su primer numero ");
+numero1 = int.Parse(Console.ReadLine());
+
+int numero2;
+Console.WriteLine("ingrese su segundo numero ");
+numero2 = int.Parse(Console.ReadLine());
+
+
+
+if (numero1 != numero2)
+{
+    Console.WriteLine($"EL NUMERO {numero1} es diferente del {numero2}");
+    Console.WriteLine();
+}
+// mayor o menor igual a 5
+ int numero1;
+ Console.WriteLine("ingrese su primer numero ");
+ numero1 = int.Parse(Console.ReadLine());
+
+ int numero2;
+ Console.WriteLine("ingrese su segundo numero ");
+ numero2 = int.Parse(Console.ReadLine());
+
+ if (numero1 <= 5)
+ {
+     Console.WriteLine($"EL NUMERO {numero1} es menor igual a {5}");
+     Console.WriteLine();
+ }
+ else
+ {
+     if (numero1 >= 5)
+     {
+         Console.WriteLine($"EL NUMERO {numero1} es mayor igual a {5}");
+         Console.WriteLine();
+     }
+ }
